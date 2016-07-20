@@ -37,7 +37,7 @@ $(document).ready(function() {
   function updateMessage(msg) {
     var $el = $('#message-text');
     $el.text(msg);
-    $el.fadeIn('fast').delay(5000).fadeOut('slow');
+    $el.fadeIn('fast').delay(2000).fadeOut('slow');
   }
 
 
