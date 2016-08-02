@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  var colors = ['red', 'blue', 'green', 'peachpuff', 'brown', 'orange'];
+  // color must be a valid CSS color for this scheme to work
+  var colors = ['red', 'blue', 'green', 'peachpuff', 'brown', 'orange', 'indigo', 'black'];
   var currentColor;
 
   createBlocks();
